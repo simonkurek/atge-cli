@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "gameID": "eaf2",
+      "fullName": "Game Choices Showcase",
+      "description": "This is scripted game showing enigne choices working",
+      "creator": "Simon Kurek",
+      "version": "alpha 1.0"
+    },
+    {
+      "gameID": "agd3",
+      "fullName": "My shitty game",
+      "description": "my test game to testing uninstalling",
+      "creator": "Simon Kurek",
+      "version": "alpha 1.1"
+    }
+  ]
+}

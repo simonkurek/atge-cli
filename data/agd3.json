@@ -1,0 +1,35 @@
+{
+  "gameID": "agd3",
+  "fullName": "My shitty game",
+  "description": "my test game to testing uninstalling",
+  "creator": "Simon Kurek",
+  "version": "alpha 1.1",
+  "scenarios": [
+    {
+      "id": 0,
+      "name": "Scene 1 game 2",
+      "description": "This is the first scene game 2",
+      "commands": [
+        {
+          "id": 0,
+          "value": 3
+        }
+      ],
+      "options": [
+        {
+          "id": 0,
+          "text": "choise 1"
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "id": 0,
+      "name": "Animation 1",
+      "description": "This is the first animation",
+      "commands": []
+    }
+  ],
+  "controlHash":"sha1"
+}

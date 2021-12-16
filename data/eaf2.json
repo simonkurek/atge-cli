@@ -1,0 +1,285 @@
+{
+  "gameID": "eaf2",
+  "fullName": "Game Choices Showcase",
+  "description": "This is scripted game showing enigne choices working",
+  "creator": "Simon Kurek",
+  "version": "alpha 1.0",
+  "scenarios": [
+    {
+      "id": 0,
+      "name": "Scene 1",
+      "description": "This is the first scene",
+      "commands": [
+        {
+          "id": 4,
+          "value": 0
+        },
+        {
+          "id": 2,
+          "value": 40
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "This is command engine show test"
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "value": 40
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "This is wait function test"
+        },
+        {
+          "id": 3,
+          "value": 1000
+        },
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 1000
+        },
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 1000
+        },
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Waiter function executed"
+        }
+      ],
+      "options": [
+        {
+          "id": 0,
+          "text": "Repeat"
+        },
+        {
+          "id": 1,
+          "text": "Test choise 2"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Test second scene",
+      "description": "This is the second scene",
+      "commands": [
+        {
+          "id": 4,
+          "value": 0
+        },
+        {
+          "id": 2,
+          "value": 40
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Choose game ending scene"
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "value": 40
+        }
+      ],
+      "options": [
+        {
+          "id": 2,
+          "text": "Expload"
+        },
+        {
+          "id": 2,
+          "text": "Exit"
+        },
+        {
+          "id": 2,
+          "text": "Quit"
+        },
+        {
+          "id": 2,
+          "text": "Get out"
+        },
+        {
+          "id": 2,
+          "text": "Close"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Test third scene",
+      "description": "This is the third scene",
+      "commands": [
+        {
+          "id": 4,
+          "value": 0
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": " =---------------= ENDING SUBTITLES =---------------= "
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "SCENARIO"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Szymon Kurek"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "GAME ENGINE"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Szymon Kurek"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "GAME DESIGN"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Szymon Kurek"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "IDEA"
+        },
+        {
+          "id": 3,
+          "value": 500
+        },
+        {
+          "id": 0,
+          "value": 0,
+          "text": "Szymon Kurek"
+        },
+        {
+          "id": 3,
+          "value": 500
+        }
+      ],
+      "options": []
+    }
+  ],
+  "animations": [
+    {
+      "id": 0,
+      "name": "Animation 1",
+      "description": "This is the first animation",
+      "commands": []
+    }
+  ],
+  "controlHash":"sha1"
+}
