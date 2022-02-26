@@ -1,13 +1,13 @@
 import GameLibraryManager from './GameLibrary/GameLibraryManager';
 
-class GameEngineLoader {
+class GameLibraryLoader {
   static initialized: boolean = false;
   private gameLibrary: GameLibraryManager;
 
   static bootstrap() {
-    if (!GameEngineLoader.initialized) {
-      GameEngineLoader.initialized = true;
-      new GameEngineLoader();
+    if (!GameLibraryLoader.initialized) {
+      GameLibraryLoader.initialized = true;
+      new GameLibraryLoader();
     } else {
       throw new Error('GameEngineLoader already initialized');
     }
@@ -24,7 +24,7 @@ class GameEngineLoader {
   }
 }
 
-GameEngineLoader.bootstrap();
+GameLibraryLoader.bootstrap();
 
 /*  TODO:
   - display options after scenario commands execution ✔️

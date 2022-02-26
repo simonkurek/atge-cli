@@ -2,9 +2,9 @@
   "name": "cli",
   "version": "1.0.0",
   "description": "Adventure Text Game Engine",
-  "main": "dist/GameEngineLoader.js",
+  "main": "dist/GameLibraryLoader.js",
   "scripts": {
-    "start": "node dist/GameEngineLoader.js",
+    "start": "node dist/GameLibraryLoader.js",
     "permissions": "chmod +x dist/GameLibrary/Data/Import/FileReader.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",

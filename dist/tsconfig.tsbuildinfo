@@ -631,8 +631,8 @@
         "signature": "7b7c370e847ea28574c33fb4feb57163aab52bfbda783aec4ced0310daf475bb",
         "affectsGlobalScope": false
       },
-      "../src/GameEngineLoader.ts": {
-        "version": "c1d7e03cf59ed318a5b07aa9f87043a4ea495f2320029904b2e12b9e4944115c",
+      "../src/GameLibraryLoader.ts": {
+        "version": "0c84dd2f00953d63e3014ea279fa58df3d137c10300bffed850a435018c19bba",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       }
@@ -1070,10 +1070,6 @@
       "../src/AskUser/IValue.ts": [
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/GameEngineLoader.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../src/GameLibrary/GameLibraryManager.ts"
-      ],
       "../src/GameLibrary/Data/DataExceptionHandler.ts": [
         "../node_modules/@types/node/util.d.ts"
       ],
@@ -1156,6 +1152,10 @@
         "../src/GameLibrary/GameEngine/GameEngine.ts",
         "../src/GameLibrary/GameLibrary.ts",
         "../src/GameLibrary/GameLibraryErrorHandler.ts"
+      ],
+      "../src/GameLibraryLoader.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../src/GameLibrary/GameLibraryManager.ts"
       ],
       "../../../../../../mnt/c/Users/Szymon/AppData/Roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": [
         "../node_modules/@types/node/util.d.ts"
@@ -1907,7 +1907,6 @@
       "../src/AskUser/IBool.ts",
       "../src/AskUser/IChoice.ts",
       "../src/AskUser/IValue.ts",
-      "../src/GameEngineLoader.ts",
       "../src/GameLibrary/Data/DataExceptionHandler.ts",
       "../src/GameLibrary/Data/DataLoader.ts",
       "../src/GameLibrary/Data/DataParser.ts",
@@ -1923,6 +1922,7 @@
       "../src/GameLibrary/GameLibrary.ts",
       "../src/GameLibrary/GameLibraryErrorHandler.ts",
       "../src/GameLibrary/GameLibraryManager.ts",
+      "../src/GameLibraryLoader.ts",
       "../../../../../../mnt/c/Users/Szymon/AppData/Roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../../../mnt/c/Users/Szymon/AppData/Roaming/npm/node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../../../../../../mnt/c/Users/Szymon/AppData/Roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts",
